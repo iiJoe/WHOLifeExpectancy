@@ -33,3 +33,9 @@ As such, we want to figure out what are the most significant factors that impact
 We managed to find the more significant factors and built accurate models to predict life expectancy.
 One interesting thing was that schooling, or in other words, the amount of education received by individuals turned out to be a more significant factor compared to vaccinations and immunisations.
 Countries should focus more on the key factors identified to improve the life expectancy of citizens, increasing the overall population health of the country.
+
+## References
+https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who
+https://machinelearningmastery.com/feature-selection-for-regression-data/
+https://scikit-learn.org/stable/modules/feature_selection.html
+https://xgboost.readthedocs.io/en/stable/tutorials/model.html
