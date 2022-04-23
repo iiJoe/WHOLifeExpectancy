@@ -25,12 +25,12 @@ As such, we want to figure out what are the most significant factors that impact
 
 ## New things we learnt from this project
 1. Using plotly as a new form of visualisation
-2. Using Feature selection to identify key variables
-3. Cross validation
+2. Using Feature Selection to identify key Predictor Variables
+3. Cross Validation
 4. XGBoost
 
 ## Conclusion
-We managed to find the more significant factors and built accurate models to predict life expectancy.
+We managed to built accurate models using machine learning to predict life expectancy, as well as using Feature Selection to identify the more significant predictors.
 One interesting thing was that schooling, or in other words, the amount of education received by individuals turned out to be a more significant factor compared to vaccinations and immunisations.
 Countries should focus more on the key factors identified to improve the life expectancy of citizens, increasing the overall population health of the country.
 
