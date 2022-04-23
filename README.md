@@ -5,7 +5,7 @@ This repository is a Mini-Project which focuses on the Life Expectancy.
 The data set is obtained from [Kaggle](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who).
 The data reflects reflects the different life expectancy of countries, with a range of indicators, from a period of 2000 to 2015.
 The original source of this data set is obtained from the data repository under World Health Organization (WHO). 
-A video presentation about this project can also be found on Youtube
+A video presentation about this project can also be found on [Youtube](https://www.youtube.com/watch?v=2V4sDu2Z7EA&feature=youtu.be)
 
 ## Contributors
 [Jeremy](https://github.com/iiJoe)
