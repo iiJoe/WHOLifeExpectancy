@@ -25,7 +25,7 @@ As such, we want to figure out what are the most significant factors that impact
 
 ## New things we learnt from this project
 1. Using plotly as a new form of visualisation
-2. Using Feasture selection to identify key variables
+2. Using Feature selection to identify key variables
 3. Cross validation
 4. XGBoost
 
