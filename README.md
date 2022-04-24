@@ -1,27 +1,27 @@
 
 # Table of Contents
 
-1.  [About](#org4403f80)
-2.  [Contributors](#orgf8284b7)
-3.  [Problem Statement](#orge709b9b)
-4.  [Cleaning Data](#orga586b56)
-5.  [Machine Learning Models](#orgc4e8ae7)
-    1.  [Multi-Variate Linear Regression](#org616292b)
-    2.  [XGBoost Model](#org4f6b035)
-6.  [What did we learn](#org661876e)
-7.  [Conclusion](#org443d0d7)
-8.  [References](#org337dd44)
+1.  [About](#org2a87731)
+2.  [Contributors](#orgce798db)
+3.  [Problem Statement](#org34f4af0)
+4.  [Cleaning Data](#org1606021)
+5.  [Machine Learning Models](#org587dfc8)
+    1.  [Multi-Variate Linear Regression](#org3c3ada8)
+    2.  [XGBoost Model](#org91ed319)
+6.  [What did we learn](#org0433684)
+7.  [Conclusion](#org0c40dee)
+8.  [References](#orgd54d041)
 
 
 
-<a id="org4403f80"></a>
+<a id="org2a87731"></a>
 
 # About
 
 This repository is a Mini-Project which focuses on the Life Expectancy. The data set is obtained from [Kaggle](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who). The data reflect every country's factors affecting life expectancy, from a period of 2000 to 2015. The original source of this data set is obtained from the data repository under World Health Organization (WHO). A video about this project is on [Youtube](https://www.youtube.com/watch?v=2V4sDu2Z7EA).  
 
 
-<a id="orgf8284b7"></a>
+<a id="orgce798db"></a>
 
 # Contributors
 
@@ -30,40 +30,42 @@ This repository is a Mini-Project which focuses on the Life Expectancy. The data
 -   [Cheng](https://github.com/Worsl) (Data Preparation, Problem formulation, Conclusion, Insights, Model Building, Presentation)
 
 
-<a id="orge709b9b"></a>
+<a id="org34f4af0"></a>
 
 # Problem Statement
 
 Life Expectancy is a key metric for assessing a country's population health. We would like to seek to improve the overall populations health of a given country. As such, we want to figure out what are the most significant factors that impact life expectancy and to build a model that would be able to predict life expectancy.  
 
 
-<a id="orga586b56"></a>
+<a id="org1606021"></a>
 
 # Cleaning Data
 
 We decided to fill null values with the median values of the corresponding column, and rows with outliers (< Q1 - 1.5 \* IQR or > Q3 + 1.5 \* IQR) are omitted.  
 
 
-<a id="orgc4e8ae7"></a>
+<a id="org587dfc8"></a>
 
 # Machine Learning Models
 
+**Note:** The plotly graphs may not show &#x2013; the whole notebook may need to be run first  
 
-<a id="org616292b"></a>
+
+<a id="org3c3ada8"></a>
 
 ## Multi-Variate Linear Regression
 
 We used a 75:25 split on the data into the training data set and test data set respectively. We built the model based on the training set and applied the model to predict on the test data set.  
 
 
-<a id="org4f6b035"></a>
+<a id="org91ed319"></a>
 
 ## XGBoost Model
 
 In an attempt to improve our model, we used feature selection to narrow down the predictors and cross validation. We passed the XGB model as an estimator to GridSearchCV which would compute the best combination of hyperparameters for our model.  
 
 
-<a id="org661876e"></a>
+<a id="org0433684"></a>
 
 # What did we learn
 
@@ -72,14 +74,14 @@ In an attempt to improve our model, we used feature selection to narrow down the
 -   Cross Validation
 
 
-<a id="org443d0d7"></a>
+<a id="org0c40dee"></a>
 
 # Conclusion
 
 We managed to find the more significant factors and built accurate models to predict life expectancy. One interesting thing was that schooling, or in other words, the amount of education received by individuals turned out to be a more significant factor compared to vaccinations and immunisations. Countries should focus more on the key factors identified to improve the life expectancy of citizens, increasing the overall population health of the country.  
 
 
-<a id="org337dd44"></a>
+<a id="orgd54d041"></a>
 
 # References
 
